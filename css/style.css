@@ -1,1 +1,250 @@
 @charset "utf-8";
+
+.inner,.keyvisual {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* header */
+
+.nav-inner {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.fas.fa-archway.fa-3x {
+    display: inline-block;
+    margin: 5px 0 5px 200px;
+    padding: 0;
+    color: #7A7F80;
+}
+
+.contact a {
+    display: inline-block;
+    color: #fff;
+    background-color: #689CC5;
+    font-size: 16px;
+    padding: 5px;
+    margin: 1em 200px 1em 0;
+    text-decoration: none;
+}
+
+.contact:hover a {
+    transition: color 0.3s;
+    color: #333;
+}
+
+/* keyvisual */
+
+.keyvisual {
+    background-image: url(../img/keyvisual/keyvisual.jpg);
+    background-size: cover;
+}
+
+.keytext1 {
+    font-size: 65px;
+    font-weight: 400;
+    color: #90A6DF;
+    text-align: center;
+    padding-top: 400px;
+    margin-bottom: 30px;
+}
+
+.keytext2 {
+    font-size: 40px;
+    font-weight: 100;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 400px;
+}
+
+/* work */
+
+.pc {
+    width: 40%;
+    background-image: url(../img/pc/pc.png);
+    background-position: right 20% top;
+    background-repeat: no-repeat;
+    background-size: 250px;   
+}
+
+.work-inner {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    background-color: #E2EFF8;
+    padding-top: 50px;
+}
+
+.work-content {
+    display: inline-block;
+    justify-content: center;
+    padding: 0 80px 0 20px;
+    width: 60%;
+}
+
+.work-heading {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    letter-spacing: 10px;
+    padding-top: 20px;
+}
+
+.work-text {
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 35px;
+    padding-bottom: 20px;
+}
+
+/* skills */
+
+.skills-inner {
+    background-color: #fff;
+}
+
+.skills-heading {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    letter-spacing: 10px;
+    padding: 50px 0;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icon a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.icon {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    opacity: 0.7;
+}
+
+.icon:hover {
+    opacity: 1.0;
+}
+
+.icon:nth-child(3n-2) {
+    margin-left: 0;
+}
+
+.skills_1 {
+    background-image: url(../img/skills/skills_1.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.skills_2 {
+    background-image: url(../img/skills/skills_2.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.skills_3 {
+    background-image: url(../img/skills/skills_3.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.skills_4 {
+    background-image: url(../img/skills/skills_4.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.skills_5 {
+    background-image: url(../img/skills/skills_5.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.skills_6 {
+    background-image: url(../img/skills/skills_6.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+/* plans */
+
+.plans-inner {
+    background-color: #CFDDE6;
+}
+
+.plans-heading {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    letter-spacing: 10px;
+    padding-top: 50px;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 0;
+}
+
+tr:nth-child(1) {
+    background-color: #90A6DF;
+}
+
+tr:not(:nth-child(1)) {
+    background-color: #DEE8F7;
+}
+
+tr:nth-child(even) {
+    background-color: #fff;
+}
+
+th,td {
+    width: 265px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+/* footer */
+
+.sns {
+    display: flex;
+    justify-content: center;
+    background-color: #E2EFF8;
+    padding: 200px 0;
+}
+
+.fab,.fas {
+    width: 185px;
+    text-align: center;
+    padding: 25px 0;
+    color: #7A7F80;
+    font-size: 40px;
+}
+
+.fab:hover,.fas:hover {
+    transition: background-color 0.5s;
+    background-color: #fff;
+}
+
+
+.c-text {
+    text-align: right;
+    background-color: #CDD6DC;
+    padding: 5px 10% 5px 0;
+}
+
